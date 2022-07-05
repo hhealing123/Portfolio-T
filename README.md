@@ -29,5 +29,5 @@ A portfolio of work is a must item when it comes to show my skills and talents t
 
 ## Snapshot of my portfolio and Link to deployed application
 *
-* Screenshot of Horiseon Website
-<img src=".assets/images/Portfolio.JPG">
+* Screenshot of My Portfolio
+<img src="./assets/images/Portfolio.JPG">
