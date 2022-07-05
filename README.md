@@ -31,3 +31,11 @@ A portfolio of work is a must item when it comes to show my skills and talents t
 *
 * Screenshot of My Portfolio
 <img src="./assets/images/Portfolio.JPG">
+
+## Utilized References
+* https://www.youtube.com/watch?v=wrb7Gge9yoE
+* https://www.youtube.com/watch?v=vbQ2bYHxxEA&t=127s
+* https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+* https://www.geeksforgeeks.org/html-nav-tag/
+* https://www.w3docs.com/snippets/css/how-to-create-contact-form-with-css.html
+* https://suraj-ranganath.github.io/
