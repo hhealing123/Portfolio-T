@@ -32,6 +32,9 @@ A portfolio of work is a must item when it comes to show my skills and talents t
 * Screenshot of My Portfolio
 <img src="./assets/images/Portfolio.JPG">
 
+## Final Thoughts
+* Although my portfolio is not the perfect right now; however, I learned a lot from this challenge from how to start a web application from scratch to how to style my web applications. Initially when I was doing this challenge, I refused myself to utilize internet because I thought it would make everything easy, and I thought using other people's ideas will disturb my ideas in mind. However, I realized the very importance of utilizing internet and sources because it definetly gave me ideas that I did not think of, as well as providing what to do in case I get stuck at certain point.
+
 ## Utilized References
 * https://www.youtube.com/watch?v=wrb7Gge9yoE
 * https://www.youtube.com/watch?v=vbQ2bYHxxEA&t=127s
