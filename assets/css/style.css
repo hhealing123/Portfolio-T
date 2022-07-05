@@ -26,6 +26,7 @@ h2 {
 /*Styles the 'madeby' on the left-side of the webpage. */
 .madeby {
     display: flex;
+    justify-content: center;
     padding-top: 350px;
     color: white;
     font-style: italic;
