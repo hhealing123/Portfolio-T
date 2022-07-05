@@ -6,22 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title> Harvey Lee | Future Developer </title>
-  <link rel="stylesheet"  href="C:\Users\hheal\Desktop\Assignment\Week 2 Assignment\assets\css\style.css" />
+  <link rel="stylesheet" href="C:\Users\hheal\Desktop\Assignment\Week 2 Assignment\assets\css\style.css" />
 </head>
 
 <body>
-
-  <header id="left-content">
+  <!-- Creates a content on the left-side -->
+  <header class="left-content">
 
     <div>
+    <!-- Adds image to the left-side content. -->
       <img src="C:\Users\hheal\Desktop\Assignment\Week 2 Assignment\assets\images/MyImage.jpg" alt="My picture" class="MyImage">
       <h1 class="light">Harvey Lee</h1>
+      <!-- Creates hyperlink to social media. -->
       <div class="social-media">
         <a href="https://github.com/hhealing123">Github</a> 
         <a href="https://www.linkedin.com/in/harvey-lee-9708">LinkedIn</a>
       </div>
     </div>
     
+    <!-- Creates navigation bar. -->
     <nav class="nav-menu">
       <a href="#content-about" class="nav-link">About</a>
       <a href="#content-fun-facts" class="nav-link">Fun Facts</a>
@@ -29,14 +32,17 @@
       <a href="#content-contact" class="nav-link">Contact</a>
     </nav>
 
+    <!-- Adds made by on the very bottom of the left-side content. -->
     <div class="madeby">
       <p>Made by Harvey Lee</p>
     </div>
 
+  <!-- Creates main content. -->
   </header>
    
     <section class="content">
-
+      
+      <!-- Creates content-article "About" section. -->
       <article>
       
       <h2 id="content-about">About</h2> 
@@ -56,9 +62,10 @@
 
       <h3>Define Contribution Compliance Analyst</h3>
       
+      <!-- Creates lists that describes info about me. -->
       <ul class="about-lists">
         <li><strong>Birthday</strong>: August 5 1997</li>
-        <li><strong>Website</strong>: <a href="https://github.com/hhealing123" class="links">Github</a></li>
+        <li><strong>Website</strong>: <a href="https://github.com/hhealing123">Github</a></li>
         <li><strong>Phone</strong>: (956) 566-6693</li>
         <li><strong>Location</strong>: Austin, TX</li>
         <li><strong>Work Email</strong>: <a href="mailto:harvey.lee@schwab.com">Email Address</a><br></li>
@@ -66,9 +73,10 @@
       </article>
 
     </section>
-
+    
     <section class="content">
 
+      <!-- Creates content-article "Fun-Facts!" section. -->
       <article>
       
       <h2 id="content-fun-facts">Fun Facts!</h2>
@@ -79,6 +87,7 @@
       
       <h3>Now lets learn more about me!</h3>
       
+      <!-- Creates lists that describe some of my fun facts. -->
       <ul class="funfacts-lists">
         <li>I lived in 6 different countries! South Korea, Poland, Germany, France, Russia, and United States! </li>
         <li>At one point I had 3 citizenships! Korean, Polish, and German!</li>
@@ -86,7 +95,7 @@
         <li>I have 24 cousins!</li>
       </ul>   
       
-      <br><br><br>
+      <br><br>
 
       </article>
 
@@ -94,8 +103,10 @@
 
     <section class="content">
 
+      <!-- Creates content-article "Resume" section. -->
       <article>
-
+        
+        <!--Headers will allow to distribute contents inside resume section. -->
         <h2 id="content-resume">Resume</h2>
         <h3 class="header-decoration">Summary</h3>
           <p>Young open-minded with passion and critical mind. Gathering information and analyzing data bring me joy and enthusiasm as it leads to an efficient and informed decisions. Communicating and learning new materials give vitality to my quality.
@@ -155,14 +166,19 @@
 
     <section class="content">
 
+      <!-- Creates content-article "contact" section. -->
       <article>
         
         <h2 id="content-contact">Contact</h2>
         <p>If you have any question. Please fill out below form, and I will reach out to you as soon as possible!</p>
 
+        <!-- This will allow users to fill out a contact form. -->
         <div class="contact-form">
+
           <h3>Contact Form</h3>
+
           <form action="#" name="contact_form">
+            <!-- 'required placeholder' will default the value inside the input box to whatever it's set up to. -->
             <label>First Name: </label>
             <input type="text" required placeholder="Jane"/>
             <br>
@@ -176,13 +192,14 @@
             <textarea class="message-text" placeholder="Enter your message here ..."> </textarea>
             <br>
             <input type="submit" value="Send Message">
-		</div>
+		    </div>
           </form>
-        </div>
+       
       </article>
 
     </section>
 
+  <!-- This will allow to put footer at the bottome of the page that helps users to easily view my contact info. -->
   <footer class="footer">
 
     <p><em>Contact me if you have any question!

@@ -2,14 +2,20 @@ body {
     background-color: #f5f8fd
 }
 
-#left-content {
+/* Styles the left-side content of the webpage. */
+.left-content {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 300px;
+    max-width: 300px;
     padding: 0 15px;
     background: #040b14;
+}
+
+/* Will get rid of underline for the links on the left-side content. */
+.left-content a {
+    text-decoration: none;
 }
 
 h2 {
@@ -17,14 +23,16 @@ h2 {
     font-size: 30px
 }
 
+/*Styles the 'madeby' on the left-side of the webpage. */
 .madeby {
     display: flex;
-    padding-top: 420px;
+    padding-top: 350px;
     color: white;
     font-style: italic;
     font-size: 8px;
 }
 
+/* Will style my name on the left-side content to be white and centered. */
 .light {
     color: white;
     text-align: center;
@@ -35,15 +43,23 @@ h2 {
     text-align: center;
 }
 
+/* Will allow the color of the text to be white after the link is visited by the user. */
 .social-media a:visited {
     color: white;
 }
 
+/* When users hover over the social media, it will change the background color to grey. */
+.social-media a:hover {
+    background-color: grey;
+}
+
+/* Will allow the picture on the left-side content to be round shape and puts 50px padding all around the image.*/
 .MyImage {
     border-radius: 50%;
     padding: 50px;
 }
 
+/* Will style the navigation bar. */
 .nav-menu {
     display: grid;
     justify-content: center;
@@ -51,10 +67,13 @@ h2 {
     margin-top: 50px;
 }
 
+/* When users hover over the navigation, the navigation's background color will turn to grey. */
 nav a:hover {
-    color: #fff;
+    background-color: grey;
 }
 
+/* Instead of having a default bullets for the navigation bar, this styles the bullets to other type of bullet,
+as well as changing the color of bullet to different color to allow users to better see. */
 .nav-link::before {
     content: '\27A2';
     color: #8ac4ff;
@@ -66,6 +85,7 @@ nav a:hover {
     text-decoration: none;
 }
 
+/* After users visiting the links in the "about" section, the font color will be white. */
 nav a:visited {
     color: white;
 }
@@ -77,25 +97,26 @@ nav a:visited {
     border-bottom: 2px double rgb(0, 59, 61);
 }
 
+/* Styles the images on the main content secition. */
 .float-left {
     float: left;
     margin-right: 25px;
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .about-lists {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height:50px;
-    
+    height:50px;   
 }
 
 .funfacts-lists {
     display:inline-block
 }
 
+/* This allows users to better distinguish between headers and paragraphs in "Resume" section. */
 .header-decoration {
     display:inline;
     background-color: #e4edf9
@@ -110,6 +131,7 @@ h4 {
     height: 0px;
 }
 
+/* Styles footer. */
 .footer {
     display: flex;
     margin-left: 325px;
@@ -117,6 +139,7 @@ h4 {
     font-size: 10px;
 }
 
+/* Styles the size of the message-text box in the contact form to the below size. */
 .message-text {
     width: 40em;
     height: 30em
@@ -124,10 +147,6 @@ h4 {
 
 #contact {
     margin-bottom: 20px
-}
-
-.content-article {
-    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 992px) {
