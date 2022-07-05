@@ -28,7 +28,7 @@ A portfolio of work is a must item when it comes to show my skills and talents t
 
 
 ## Snapshot of my portfolio and Link to deployed application
-*
+* [Link to the deployed Portfolio](https://hhealing123.github.io/Module-2-Challenge/)
 * Screenshot of My Portfolio
 <img src="./assets/images/Portfolio.JPG">
 
