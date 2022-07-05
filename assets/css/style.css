@@ -1,0 +1,146 @@
+body {
+    background-color: #f5f8fd
+}
+
+#left-content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    padding: 0 15px;
+    background: #040b14;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 30px
+}
+
+.madeby {
+    display: flex;
+    padding-top: 420px;
+    color: white;
+    font-style: italic;
+    font-size: 8px;
+}
+
+.light {
+    color: white;
+    text-align: center;
+}
+
+.social-media {
+    color: white;
+    text-align: center;
+}
+
+.social-media a:visited {
+    color: white;
+}
+
+.MyImage {
+    border-radius: 50%;
+    padding: 50px;
+}
+
+.nav-menu {
+    display: grid;
+    justify-content: center;
+    justify-items: start;
+    margin-top: 50px;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.nav-link::before {
+    content: '\27A2';
+    color: #8ac4ff;
+    padding: 10px;
+}
+
+.about-lists a{
+    color: black;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 325px;
+    border-bottom: 2px double rgb(0, 59, 61);
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.about-lists {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:50px;
+    
+}
+
+.funfacts-lists {
+    display:inline-block
+}
+
+.header-decoration {
+    display:inline;
+    background-color: #e4edf9
+}
+
+.dates {
+    font-size: 8px;
+    font-style: italic;
+}
+
+h4 {
+    height: 0px;
+}
+
+.footer {
+    display: flex;
+    margin-left: 325px;
+    justify-content: flex-end;
+    font-size: 10px;
+}
+
+.message-text {
+    width: 40em;
+    height: 30em
+}
+
+#contact {
+    margin-bottom: 20px
+}
+
+.content-article {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    /* Change the section color at 992px or smaller */
+    section {
+      background: #772014;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    /* Change the section color at 768px or smaller */
+    section {
+      background: #8ac4ff;
+    }
+  }
+
