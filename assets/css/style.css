@@ -66,6 +66,7 @@ h2 {
     justify-content: center;
     justify-items: start;
     margin-top: 50px;
+    margin-right: 30px;
 }
 
 /* When users hover over the navigation, the navigation's background color will turn to grey. */
@@ -114,7 +115,8 @@ nav a:visited {
 }
 
 .funfacts-lists {
-    display:inline-block
+    display: flex;
+    flex-direction: column;
 }
 
 /* This allows users to better distinguish between headers and paragraphs in "Resume" section. */
