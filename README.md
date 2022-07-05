@@ -24,4 +24,9 @@ A portfolio of work is a must item when it comes to show my skills and talents t
 * Using correct class tags and improvising CSS codes were really hard (I somewhat managed to combine similar styles in CSS by using same class that had same styles but it still is not the perfect way of organzing the codes). I tried overcomming this problem by carefully reading my codes and identify parts where it would have same styles.
 * Creating my own repository and push this portfolio challenge gave me a little issue. 
   * For some odd reason, pushing files would not work so I had to watch couple youtube vidoes to better understand the mechanices of Github.
-* Finally, selecting the appropriate styles to the portfolio was extremly hard. Each individual has differrent taste and there are numerous ways to organize structure of portfolio; hence, this part took the longest for me because I initially did not like the way my portfolio was structured, and the styles that I applied were horrible. I overcame this trouble by doing numerous attemps of revising and experimenting my codes by applying different styles to determine the best styles that would be suitable for my portfolio.
+* Finally, selecting the appropriate styles to the portfolio was extremly hard. Each individual has differrent taste and there are numerous ways to organize structure of portfolio; hence, this part took the longest for me because I initially did not like the way my portfolio was structured, and the styles that I applied were horrible. I overcame this trouble by doing numerous attempts of revising and experimenting my codes by applying different styles to determine the best styles that would be suitable for my portfolio.
+
+
+## Snapshot of my portfolio and Link to deployed application
+*
+*
