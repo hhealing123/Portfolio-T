@@ -26,7 +26,6 @@ h2 {
 /*Styles the 'madeby' on the left-side of the webpage. */
 .madeby {
     display: flex;
-    justify-content: center;
     padding-top: 350px;
     color: white;
     font-style: italic;
@@ -66,7 +65,6 @@ h2 {
     justify-content: center;
     justify-items: start;
     margin-top: 50px;
-    margin-right: 30px;
 }
 
 /* When users hover over the navigation, the navigation's background color will turn to grey. */
@@ -96,7 +94,7 @@ nav a:visited {
     display: flex;
     justify-content: flex-start;
     margin-left: 325px;
-    border-bottom: 5px double rgb(0, 59, 61);
+    border-bottom: 7px double rgb(0, 59, 61);
 }
 
 /* Styles the images on the main content secition. */
@@ -111,12 +109,11 @@ nav a:visited {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height:42px;   
+    height:50px;   
 }
 
 .funfacts-lists {
-    display: flex;
-    flex-direction: column;
+    display:inline-block
 }
 
 /* This allows users to better distinguish between headers and paragraphs in "Resume" section. */
@@ -168,4 +165,10 @@ h4 {
     section {
       background: #8ac4ff;
     }
+  }
+
+  #projectOne {
+    display: flex;
+    width: 45%;
+    height: 75%;
   }
