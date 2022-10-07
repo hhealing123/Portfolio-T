@@ -93,6 +93,7 @@ nav a:visited {
 .content {
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
     margin-left: 325px;
     border-bottom: 7px double rgb(0, 59, 61);
 }
